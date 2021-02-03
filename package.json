@@ -1,0 +1,26 @@
+{
+  "name": "Money-App",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "gh-pages": "^3.1.0",
+    "gridsome": "^0.7.0",
+    "v-scroll-threshold": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-fixed-header": "^3.2.15",
+    "vue-navigation-bar": "^4.1.0",
+    "vue-sticky-element": "^1.1.2",
+    "vue-stripe-menu": "^1.5.0",
+    "vuejs-scroll-fixed-header": "^1.0.3"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
+  }
+}
