@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  siteUrl: 'https://celebritydeveloper.github.io',
+  pathPrefix: '/Money-App',
   plugins: []
 }

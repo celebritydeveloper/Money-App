@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
@@ -15,7 +17,6 @@
     "vue": "^2.6.12",
     "vue-fixed-header": "^3.2.15",
     "vue-navigation-bar": "^4.1.0",
-    "vue-sticky-element": "^1.1.2",
     "vue-stripe-menu": "^1.5.0",
     "vuejs-scroll-fixed-header": "^1.0.3"
   },
